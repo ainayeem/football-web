@@ -32,6 +32,16 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  cursor: pointer;
+
+  /* Live button animation */
+  transition: ease-out 1s;
+}
+#btn-anm:hover {
+  box-shadow: inset 200px 0 0 0 rgb(0, 162, 255);
+}
+#btn-anm a:hover {
+  color: black;
 }
 .banner-image img {
   width: 556.01px;
@@ -55,4 +65,40 @@ body {
 .profile {
   box-shadow: 0px 5px 10px #d4d4d4d4;
   padding: 15px;
+}
+
+/* Highlight Part */
+.highlight {
+  display: flex;
+  margin-left: 182px;
+  margin-right: 238px;
+  margin-top: 165px;
+  margin-bottom: 158px;
+}
+.high-text {
+  margin-left: 200px;
+  margin-right: 69px;
+}
+h1 {
+  font-size: 48px;
+}
+.high-image img {
+  width: 567px;
+  height: 427px;
+}
+/* Footer Style */
+.foot {
+  text-align: center;
+}
+.logo img {
+  width: 483px;
+  height: 110px;
+}
+.icon .fab {
+  color: #969bab;
+}
+
+/* extra feature style */
+.sale-item {
+  margin-left: 100px;
 }
